@@ -1,0 +1,51 @@
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Color de fondo gris para filas impares */
+}
+
+/* Estilo para filas pares */
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+    /* Color de fondo otro tono de gris para filas pares */
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 5px;
+  }
+
+  th {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+  }
+
+  td {
+    font-size: 16px;
+  }
+
+  .prev-month, .next-month {
+    color: lightgray;
+  }
+
+  .weekend {
+    color: red;
+  }
+
+  .current-day {
+    background-color: lightblue;
+  }
+
+  .next-days {
+    color: gray;
+  }
+
+  .arrow {
+    font-size: 24px;
+    text-align: center;
+  }

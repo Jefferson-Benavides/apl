@@ -1,0 +1,57 @@
+//para qué aplicacion supones que se utilizaría el siguiente json
+
+{
+    "id_asociado": "",
+    "identificacion_asociado": 0,
+    "nombre_completo_asociado": "",
+    "lotes_asociado": [
+        {
+            "id_lote": "",
+            "id_asociado": "",
+            "etapa": "",
+            "manzana": "",
+            "lote": "",
+            "numero_predial": 0,
+            "tipo_construccion": "",
+            "servicios_publicos": [
+                {
+                    "id_lote ": "",
+                    "servicio_publico ": "",
+                    "empresa ": "",
+                    "matricula ": 0,
+                    "titular ": ""
+                }
+            ],
+            "propietarios_anteriores": [
+                {
+                    "id_lote ": "",
+                    "identificacion_asociado ": 0,
+                    "nombre_completo_asociado ": "",
+                    "fecha_compra_lote ": "",
+                    "fecha_venta_lote ": ""
+                }
+            ]
+        }
+    ],
+    "cuotas_pendientes": [
+        {
+            "id_cuota ": "",
+            "id_asamblea ": "",
+            "id_asociado ": "",
+            "descripcion_cuota ": "",
+            "valor_cuota ": 0,
+            "fecha_limite_pago_cuota ": "",
+            "fecha_pago_cuota": ""
+        }
+    ],
+    "inasistencia_asambleas": [
+        {
+            "id_asamblea ": "",
+            "fecha_asamblea ": "",
+            "motivo_asamblea ": "",
+            "id_cuota ": "",
+            "asistencia_firmada ": ""
+        }
+    ],
+    "status_asociado": ""
+}
