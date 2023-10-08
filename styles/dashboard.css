@@ -58,14 +58,14 @@ body {
 .arrow-container{
     display: flex;
     justify-content: right;
-    margin-top: 32px;
     margin-bottom: 0px;
-    height: 8px;
-    cursor: pointer;
+    height: 24px;
 }
 
 .arrow{
+    cursor: pointer;
     transition: transform 0.3s ease;
+    color: #3498db;
 }
 .sidebar ul {
     list-style: none;
@@ -107,20 +107,56 @@ body {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 20px;
-    padding: 20px;
+    padding: 12px;
     overflow: hidden;
 }
 
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 12px;
+    align-items: center;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.card, .copy{
+    display: flex;
+}
 
+.copy{
+    flex-direction: column;
+}
+
+.card-1, .card-2 {
+  grid-row: 1; /* Ocupan la primera fila */
+  grid-column: span 6; /* Ocupan una columna cada uno */
+}
+
+.card-1 svg, .card-2 svg {
+    height: 70%;
+    width: 70%;
+}
+
+.card-1 .copy, .card-2 .copy {
+    align-items: flex-start;
+    text-align: left;
+}
+.card-3 svg, .card-4 svg, .card-5 svg {
+    height: 16%;
+    width: 16%;
+}
+/* Estilos específicos para los elementos de la segunda fila */
+.card-3,
+.card-4,
+.card-5 {
+  grid-row: 2; /* Ocupan la segunda fila */
+  grid-column: span 4; /* Ocupan una columna cada uno */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .card h2 {
     font-size: 1.5rem;
 }
@@ -129,8 +165,5 @@ body {
     font-size: 1rem;
 }
 
-.card i {
-    font-size: 2rem;
-}
 
 
