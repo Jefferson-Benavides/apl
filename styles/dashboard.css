@@ -33,9 +33,11 @@ body {
 
 .header-notification {
     width: 40px; 
-    margin-right: 16px;
+    /* margin-right: 16px; */
     height: auto;
     color: white;
+    display: flex;
+    justify-content: right;
 }
 
 .dashboard {
