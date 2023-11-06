@@ -1,0 +1,122 @@
+[
+{
+        "id_asociado": 14,
+        "numero_identificacion_asociado": "12345",
+        "nombres_asociado": "Olivia",
+        "apellidos_asociado": "González",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 15,
+        "numero_identificacion_asociado": "23456",
+        "nombres_asociado": "Pedro",
+        "apellidos_asociado": "Rodríguez",
+        "estado_asociado": "INHÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 16,
+        "numero_identificacion_asociado": "34567",
+        "nombres_asociado": "Quetzal",
+        "apellidos_asociado": "Salazar",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 17,
+        "numero_identificacion_asociado": "45678",
+        "nombres_asociado": "Rosa",
+        "apellidos_asociado": "Luna",
+        "estado_asociado": "INHÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 18,
+        "numero_identificacion_asociado": "56789",
+        "nombres_asociado": "Sergio",
+        "apellidos_asociado": "Molina",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 9,
+        "numero_identificacion_asociado": "57903",
+        "nombres_asociado": "Julia",
+        "apellidos_asociado": "Ortega",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 10,
+        "numero_identificacion_asociado": "69014",
+        "nombres_asociado": "Kevin",
+        "apellidos_asociado": "Núñez",
+        "estado_asociado": "INHÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 11,
+        "numero_identificacion_asociado": "70125",
+        "nombres_asociado": "Laura",
+        "apellidos_asociado": "Ochoa",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 12,
+        "numero_identificacion_asociado": "81236",
+        "nombres_asociado": "Miguel",
+        "apellidos_asociado": "Paredes",
+        "estado_asociado": "INHÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 13,
+        "numero_identificacion_asociado": "92347",
+        "nombres_asociado": "Natalia",
+        "apellidos_asociado": "Quiroga",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 1,
+        "numero_identificacion_asociado": "12345",
+        "nombres_asociado": "Ana",
+        "apellidos_asociado": "Gómez",
+        "estado_asociado": "HÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    },
+    {
+        "id_asociado": 2,
+        "numero_identificacion_asociado": "67890",
+        "nombres_asociado": "Carlos",
+        "apellidos_asociado": "López",
+        "estado_asociado": "INHÁBIL",
+        "lotes_asociado": [],
+        "cuotas_asociado": [],
+        "asistencias_asambleas_asociado": []
+    }
+]

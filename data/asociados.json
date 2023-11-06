@@ -1,0 +1,534 @@
+[
+    {
+        "id_asociado": 3,
+        "numero_identificacion_asociado": "54321",
+        "nombres_asociado": "Diana",
+        "apellidos_asociado": "Martínez",
+        "estado_asociado": "HÁBIL",
+        "contacto_asociado": {
+            "correo": "dmar@gmail.com",
+            "telefono": "123-456-7890"
+        },
+        "domicilio_asociado": {
+            "departamento": "Antioquia",
+            "ciudad": "Medellín",
+            "barrio_vereda": "Poblado",
+            "direccion": "Carrera 123 #45-67"
+        },
+        "lotes_asociado": [
+            {
+                "Id_lote": 1,
+                "Etapa_lote": "Primera",
+                "Manzana_lote": 10,
+                "Codigo_lote": 1234,
+                "Predial_lote": 7654321,
+                "Construccion_lote": "SIN CONSTRUIR"
+            },
+            {
+                "Id_lote": 2,
+                "Etapa_lote": "Segunda",
+                "Manzana_lote": 25,
+                "Codigo_lote": 5678,
+                "Predial_lote": 9876543,
+                "Construccion_lote": "CONCRETO"
+            },
+            {
+                "Id_lote": 3,
+                "Etapa_lote": "Tercera",
+                "Manzana_lote": 50,
+                "Codigo_lote": 4321,
+                "Predial_lote": 1234567,
+                "Construccion_lote": "MADERA"
+            }
+        ],
+        "cuotas_asociado": [
+            {
+                "id_cuota": 1,
+                "id_asamblea": 1,
+                "fecha_aprobacion": "05-junio-2020",
+                "motivo": "Mantenimiento del polideportivo",
+                "valor": 40000,
+                "estado": "PAGADA",
+                "comprobante": 18795,
+                "fecha_comprobante": "13-enero-2021"
+            },
+            {
+                "id_cuota": 2,
+                "id_asamblea": 2,
+                "fecha_aprobacion": "03-junio-2021",
+                "motivo": "Compra de postes de energía",
+                "valor": 55000,
+                "estado": "SIN PAGAR",
+                "comprobante": 0,
+                "fecha_comprobante": ""
+            },
+            {
+                "id_cuota": 3,
+                "id_asamblea": 3,
+                "fecha_aprobacion": "01-julio-2022",
+                "motivo": "Jardinería",
+                "valor": 25000,
+                "estado": "PAGADA",
+                "comprobante": 28796,
+                "fecha_comprobante": "13-enero-2021"
+            }
+        ],
+        "asistencias_asambleas_asociado": [
+            {
+                "id_asamblea": 1,
+                "id_cuota_aprobada": 1,
+                "fecha_realizacion": "05-junio-2020",
+                "asunto": "Elección Consejo de Administración",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 2,
+                "id_cuota_aprobada": 2,
+                "fecha_realizacion": "1-junio-2021",
+                "asunto": "Nombramiento Comité de Vigilancia",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 3,
+                "id_cuota_aprobada": 3,
+                "fecha_realizacion": "05-julio-2022",
+                "asunto": "Reforma de Estatutos",
+                "asistencia": "FIRMADA"
+            }
+        ]
+    },
+    {
+        "id_asociado": 4,
+        "numero_identificacion_asociado": "98765",
+        "nombres_asociado": "Eduardo",
+        "apellidos_asociado": "Pérez",
+        "estado_asociado": "INHÁBIL",
+        "contacto_asociado": {
+            "correo": "eduper@gmail.com",
+            "telefono": "987-654-3210"
+        },
+        "domicilio_asociado": {
+            "departamento": "Valle del Cauca",
+            "ciudad": "Cali",
+            "barrio_vereda": "San Fernando",
+            "direccion": "Calle 78 #12-34"
+        },
+        "lotes_asociado": [
+            {
+                "Id_lote": 4,
+                "Etapa_lote": "Primera",
+                "Manzana_lote": 15,
+                "Codigo_lote": 9876,
+                "Predial_lote": 8765432,
+                "Construccion_lote": "PREFABRICADO"
+            }
+        ],
+        "cuotas_asociado": [
+            {
+                "id_cuota": 1,
+                "id_asamblea": 1,
+                "fecha_aprobacion": "05-junio-2020",
+                "motivo": "Mantenimiento del polideportivo",
+                "valor": 40000,
+                "estado": "SIN PAGAR",
+                "comprobante": 18796,
+                "fecha_comprobante": "13-enero-2021"
+            },
+            {
+                "id_cuota": 2,
+                "id_asamblea": 2,
+                "fecha_aprobacion": "03-junio-2021",
+                "motivo": "Compra de postes de energía",
+                "valor": 55000,
+                "estado": "SIN PAGAR",
+                "comprobante": 0,
+                "fecha_comprobante": ""
+            },
+            {
+                "id_cuota": 3,
+                "id_asamblea": 3,
+                "fecha_aprobacion": "01-julio-2022",
+                "motivo": "Jardinería",
+                "valor": 25000,
+                "estado": "PAGADA",
+                "comprobante": 28797,
+                "fecha_comprobante": "13-enero-2021"
+            }
+        ],
+        "asistencias_asambleas_asociado": [
+            {
+                "id_asamblea": 1,
+                "id_cuota_aprobada": 1,
+                "fecha_realizacion": "05-junio-2020",
+                "asunto": "Elección Consejo de Administración",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 2,
+                "id_cuota_aprobada": 2,
+                "fecha_realizacion": "1-junio-2021",
+                "asunto": "Nombramiento Comité de Vigilancia",
+                "asistencia": "NO ASISTIÓ"
+            },
+            {
+                "id_asamblea": 3,
+                "id_cuota_aprobada": 3,
+                "fecha_realizacion": "05-julio-2022",
+                "asunto": "Reforma de Estatutos",
+                "asistencia": "FIRMADA"
+            }
+        ]
+    },
+    {
+        "id_asociado": 5,
+        "numero_identificacion_asociado": "13579",
+        "nombres_asociado": "Fernanda",
+        "apellidos_asociado": "Ramírez",
+        "estado_asociado": "HÁBIL",
+        "contacto_asociado": {
+            "correo": "framirez@gmail.com",
+            "telefono": "456-789-0123"
+        },
+        "domicilio_asociado": {
+            "departamento": "Santander",
+            "ciudad": "Bucaramanga",
+            "barrio_vereda": "Cabecera",
+            "direccion": "Avenida 56 #78-90"
+        },
+        "lotes_asociado": [
+            {
+                "Id_lote": 5,
+                "Etapa_lote": "Segunda",
+                "Manzana_lote": 30,
+                "Codigo_lote": 2468,
+                "Predial_lote": 9871234,
+                "Construccion_lote": "CONCRETO"
+            },
+            {
+                "Id_lote": 6,
+                "Etapa_lote": "Primera",
+                "Manzana_lote": 5,
+                "Codigo_lote": 1357,
+                "Predial_lote": 8761234,
+                "Construccion_lote": "PREFABRICADO"
+            }
+        ],
+        "cuotas_asociado": [
+            {
+                "id_cuota": 1,
+                "id_asamblea": 1,
+                "fecha_aprobacion": "05-junio-2020",
+                "motivo": "Mantenimiento del polideportivo",
+                "valor": 40000,
+                "estado": "PAGADA",
+                "comprobante": 38795,
+                "fecha_comprobante": "13-enero-2021"
+            },
+            {
+                "id_cuota": 2,
+                "id_asamblea": 2,
+                "fecha_aprobacion": "03-junio-2021",
+                "motivo": "Compra de postes de energía",
+                "valor": 55000,
+                "estado": "PAGADA",
+                "comprobante": 28797,
+                "fecha_comprobante": ""
+            },
+            {
+                "id_cuota": 3,
+                "id_asamblea": 3,
+                "fecha_aprobacion": "01-julio-2022",
+                "motivo": "Jardinería",
+                "valor": 25000,
+                "estado": "PAGADA",
+                "comprobante": 38796,
+                "fecha_comprobante": "13-enero-2021"
+            }
+        ],
+        "asistencias_asambleas_asociado": [
+            {
+                "id_asamblea": 1,
+                "id_cuota_aprobada": 1,
+                "fecha_realizacion": "05-junio-2020",
+                "asunto": "Elección Consejo de Administración",
+                "asistencia": "NO ASISTIÓ"
+            },
+            {
+                "id_asamblea": 2,
+                "id_cuota_aprobada": 2,
+                "fecha_realizacion": "1-junio-2021",
+                "asunto": "Nombramiento Comité de Vigilancia",
+                "asistencia": "NO ASISTIÓ"
+            },
+            {
+                "id_asamblea": 3,
+                "id_cuota_aprobada": 3,
+                "fecha_realizacion": "05-julio-2022",
+                "asunto": "Reforma de Estatutos",
+                "asistencia": "NO ASISTIÓ"
+            }
+        ]
+    },
+    {
+        "id_asociado": 6,
+        "numero_identificacion_asociado": "24680",
+        "nombres_asociado": "Gustavo",
+        "apellidos_asociado": "Sánchez",
+        "estado_asociado": "INHÁBIL",
+        "contacto_asociado": {
+            "correo": "gustavo.sanchez@gmail.com",
+            "telefono": "789-012-3456"
+        },
+        "domicilio_asociado": {
+            "departamento": "Cundinamarca",
+            "ciudad": "Bogotá",
+            "barrio_vereda": "Chapinero",
+            "direccion": "Carrera 34 #56-78"
+        },
+        "lotes_asociado": [
+            {
+                "Id_lote": 10,
+                "Etapa_lote": "Segunda",
+                "Manzana_lote": 12,
+                "Codigo_lote": 7890,
+                "Predial_lote": 9876540,
+                "Construccion_lote": "PREFABRICADO"
+            },
+            {
+                "Id_lote": 11,
+                "Etapa_lote": "Tercera",
+                "Manzana_lote": 88,
+                "Codigo_lote": 1234,
+                "Predial_lote": 5678901,
+                "Construccion_lote": "MADERA"
+            }
+        ],
+        "cuotas_asociado": [
+            {
+                "id_cuota": 1,
+                "id_asamblea": 1,
+                "fecha_aprobacion": "05-junio-2020",
+                "motivo": "Mantenimiento del polideportivo",
+                "valor": 40000,
+                "estado": "PAGADA",
+                "comprobante": 48795,
+                "fecha_comprobante": "13-enero-2021"
+            },
+            {
+                "id_cuota": 2,
+                "id_asamblea": 2,
+                "fecha_aprobacion": "03-junio-2021",
+                "motivo": "Compra de postes de energía",
+                "valor": 55000,
+                "estado": "PAGADA",
+                "comprobante": 38797,
+                "fecha_comprobante": ""
+            },
+            {
+                "id_cuota": 3,
+                "id_asamblea": 3,
+                "fecha_aprobacion": "01-julio-2022",
+                "motivo": "Jardinería",
+                "valor": 25000,
+                "estado": "PAGADA",
+                "comprobante": 48796,
+                "fecha_comprobante": "13-enero-2021"
+            }
+        ],
+        "asistencias_asambleas_asociado": [
+            {
+                "id_asamblea": 1,
+                "id_cuota_aprobada": 1,
+                "fecha_realizacion": "05-junio-2020",
+                "asunto": "Elección Consejo de Administración",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 2,
+                "id_cuota_aprobada": 2,
+                "fecha_realizacion": "1-junio-2021",
+                "asunto": "Nombramiento Comité de Vigilancia",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 3,
+                "id_cuota_aprobada": 3,
+                "fecha_realizacion": "05-julio-2022",
+                "asunto": "Reforma de Estatutos",
+                "asistencia": "FIRMADA"
+            }
+        ]
+    },
+    {
+        "id_asociado": 7,
+        "numero_identificacion_asociado": "35791",
+        "nombres_asociado": "Hugo",
+        "apellidos_asociado": "Vargas",
+        "estado_asociado": "HÁBIL",
+        "contacto_asociado": {
+            "correo": "hugo.vargas@gmail.com",
+            "telefono": "234-567-8901"
+        },
+        "domicilio_asociado": {
+            "departamento": "Atlántico",
+            "ciudad": "Barranquilla",
+            "barrio_vereda": "Centro",
+            "direccion": "Calle 23 #45-67"
+        },
+        "lotes_asociado": [
+            {
+                "Id_lote": 8,
+                "Etapa_lote": "Tercera",
+                "Manzana_lote": 75,
+                "Codigo_lote": 9876,
+                "Predial_lote": 3219876,
+                "Construccion_lote": "MADERA"
+            },
+            {
+                "Id_lote": 9,
+                "Etapa_lote": "Primera",
+                "Manzana_lote": 20,
+                "Codigo_lote": 9876,
+                "Predial_lote": 6543219,
+                "Construccion_lote": "SIN CONSTRUIR"
+            }
+        ],
+        "cuotas_asociado": [
+            {
+                "id_cuota": 1,
+                "id_asamblea": 1,
+                "fecha_aprobacion": "05-junio-2020",
+                "motivo": "Mantenimiento del polideportivo",
+                "valor": 40000,
+                "estado": "PAGADA",
+                "comprobante": 48795,
+                "fecha_comprobante": "13-enero-2021"
+            },
+            {
+                "id_cuota": 2,
+                "id_asamblea": 2,
+                "fecha_aprobacion": "03-junio-2021",
+                "motivo": "Compra de postes de energía",
+                "valor": 55000,
+                "estado": "PAGADA",
+                "comprobante": 38797,
+                "fecha_comprobante": "15-diciembre-2021"
+            },
+            {
+                "id_cuota": 3,
+                "id_asamblea": 3,
+                "fecha_aprobacion": "01-julio-2022",
+                "motivo": "Jardinería",
+                "valor": 25000,
+                "estado": "PAGADA",
+                "comprobante": 38796,
+                "fecha_comprobante": "13-enero-2021"
+            }
+        ],
+        "asistencias_asambleas_asociado": [
+            {
+                "id_asamblea": 1,
+                "id_cuota_aprobada": 1,
+                "fecha_realizacion": "05-junio-2020",
+                "asunto": "Elección Consejo de Administración",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 2,
+                "id_cuota_aprobada": 2,
+                "fecha_realizacion": "1-junio-2021",
+                "asunto": "Nombramiento Comité de Vigilancia",
+                "asistencia": "NO ASISTIÓ"
+            },
+            {
+                "id_asamblea": 3,
+                "id_cuota_aprobada": 3,
+                "fecha_realizacion": "05-julio-2022",
+                "asunto": "Reforma de Estatutos",
+                "asistencia": "FIRMADA"
+            }
+        ]
+    },
+    {
+        "id_asociado": 8,
+        "numero_identificacion_asociado": "46802",
+        "nombres_asociado": "Isabel",
+        "apellidos_asociado": "Lara",
+        "estado_asociado": "INHÁBIL",
+        "contacto_asociado": {
+            "correo": "isalara@gmail.com",
+            "telefono": "345-678-9012"
+        },
+        "domicilio_asociado": {
+            "departamento": "Caldas",
+            "ciudad": "Manizales",
+            "barrio_vereda": "Palermo",
+            "direccion": "Carrera 45 #23-56"
+        },
+        "lotes_asociado": [
+            {
+                "Id_lote": 7,
+                "Etapa_lote": "Primera",
+                "Manzana_lote": 40,
+                "Codigo_lote": 2468,
+                "Predial_lote": 5432198,
+                "Construccion_lote": "CONCRETO"
+            }
+        ],
+        "cuotas_asociado": [
+            {
+                "id_cuota": 1,
+                "id_asamblea": 1,
+                "fecha_aprobacion": "05-junio-2020",
+                "motivo": "Mantenimiento del polideportivo",
+                "valor": 40000,
+                "estado": "SIN PAGAR",
+                "comprobante": 0,
+                "fecha_comprobante": ""
+            },
+            {
+                "id_cuota": 2,
+                "id_asamblea": 2,
+                "fecha_aprobacion": "03-junio-2021",
+                "motivo": "Compra de postes de energía",
+                "valor": 55000,
+                "estado": "SIN PAGAR",
+                "comprobante": 0,
+                "fecha_comprobante": ""
+            },
+            {
+                "id_cuota": 3,
+                "id_asamblea": 3,
+                "fecha_aprobacion": "01-julio-2022",
+                "motivo": "Jardinería",
+                "valor": 25000,
+                "estado": "SIN PAGAR",
+                "comprobante": 0,
+                "fecha_comprobante": "13-enero-2021"
+            }
+        ],
+        "asistencias_asambleas_asociado": [
+            {
+                "id_asamblea": 1,
+                "id_cuota_aprobada": 1,
+                "fecha_realizacion": "05-junio-2020",
+                "asunto": "Elección Consejo de Administración",
+                "asistencia": "FIRMADA"
+            },
+            {
+                "id_asamblea": 2,
+                "id_cuota_aprobada": 2,
+                "fecha_realizacion": "1-junio-2021",
+                "asunto": "Nombramiento Comité de Vigilancia",
+                "asistencia": "NO ASISTIÓ"
+            },
+            {
+                "id_asamblea": 3,
+                "id_cuota_aprobada": 3,
+                "fecha_realizacion": "05-julio-2022",
+                "asunto": "Reforma de Estatutos",
+                "asistencia": "NO ASISTIÓ"
+            }
+        ]
+    }
+]
